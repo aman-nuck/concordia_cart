@@ -113,6 +113,10 @@
 						rating
 						<%=product.getRating()%>
 					</p>
+					<p class="discount">       
+						discount = 
+						<%=product.getDiscount()%>
+					</p>
 					<form method="post">
 						<%
 						if (cartQty == 0) {
